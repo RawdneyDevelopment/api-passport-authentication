@@ -1,0 +1,34 @@
+{
+  "name": "api-passport-authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/RawdneyDevelopment/api-passport-authentication.git"
+  },
+  "keywords": [],
+  "author": "Rawdney Goncalves Mendes",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/RawdneyDevelopment/api-passport-authentication/issues"
+  },
+  "homepage": "https://github.com/RawdneyDevelopment/api-passport-authentication#readme",
+  "dependencies": {
+    "bcrypt": "^5.1.0",
+    "connect-flash": "^0.1.1",
+    "dotenv": "^16.0.3",
+    "ejs": "^3.1.8",
+    "express": "^4.18.2",
+    "express-ejs-layouts": "^2.5.1",
+    "express-session": "^1.17.3",
+    "mongoose": "^6.7.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  }
+}
